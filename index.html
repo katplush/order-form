@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+  <fieldset>
+    <form>
+      <p>Please select the item you would like to purchase.</p>
+      <select id="productList" onchange="productChoice()">
+        <option>Select...</option>
+        <option>bag</option>
+        <option>banana</option>
+        <option>bathroom</option>
+        <option>boots</option>
+        <option>breakfast</option>
+        <option>bubblegum</option>
+        <option>chair</option>
+        <option>cthulhu</option>
+        <option>dog-duck</option>
+        <option>dragon</option>
+        <option>pen</option>
+        <option>pet-sweep</option>
+        <option>tauntaun</option>
+        <option>unicorn</option>
+        <option>usb</option>
+        <option>water-can</option>
+        <option>wine-glass</option>
+      </select>
+      <label for = "quantity">Quantity: </label>
+      <input name = "quantity" type = "number"/>
+    </form>
+    <button type="submit">Add to Cart</button> 
+</fieldset>
+  <script src="app.js"></script>
+</body>
+</html>
