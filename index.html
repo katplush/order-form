@@ -10,28 +10,28 @@
       <p>Please select the item you would like to purchase.</p>
       <select id="productList" onchange="productChoice()">
         <option>Select...</option>
-        <option>bag</option>
-        <option>banana</option>
-        <option>bathroom</option>
-        <option>boots</option>
-        <option>breakfast</option>
-        <option>bubblegum</option>
-        <option>chair</option>
-        <option>cthulhu</option>
-        <option>dog-duck</option>
-        <option>dragon</option>
-        <option>pen</option>
-        <option>pet-sweep</option>
-        <option>tauntaun</option>
-        <option>unicorn</option>
-        <option>usb</option>
-        <option>water-can</option>
-        <option>wine-glass</option>
+        <option value="bag">bag</option>
+        <option value="banana">banana</option>
+        <option value="bathroom">bathroom</option>
+        <option value="boots">boots</option>
+        <option value="breakfast">breakfast</option>
+        <option value="bubblegum">bubblegum</option>
+        <option value="chair">chair</option>
+        <option value="cthulhu">cthulhu</option>
+        <option value="dog-duck">dog-duck</option>
+        <option value="dragon">dragon</option>
+        <option value="pen">pen</option>
+        <option value="pet-sweep">pet-sweep</option>
+        <option value="tauntaun">tauntaun</option>
+        <option value="unicorn">unicorn</option>
+        <option value="usb">usb</option>
+        <option value="water-can">water-can</option>
+        <option value="wine-glass">wine-glass</option>
       </select>
       <label for = "quantity">Quantity: </label>
-      <input name = "quantity" type = "number"/>
+      <input name = "quantity" type = "number" id="quantity"/>
     </form>
-    <button type="submit">Add to Cart</button> 
+    <button id = "btn" type="submit">Add to Cart</button> 
 </fieldset>
   <script src="app.js"></script>
 </body>
