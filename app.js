@@ -64,6 +64,11 @@ function load(){
       quantity.appendChild(item);
       x++;
     }
+    for (var i = 1; i < list.length; i++){
+      var image = document.createElement('img');
+      image.src = 'img/' + Product.all[i].name + '.jpg';
+      document.item.appendChild(image);
+    }
   }
 }
 
